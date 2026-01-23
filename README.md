@@ -167,6 +167,4 @@ npx shadcn@latest add card
 
 ---
 
----
-
 Created by **KhanDevs**
